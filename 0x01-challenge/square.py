@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""class square"""
+
 
 class square():
-    
+    """square class"""
     width = 0
     height = 0
 
@@ -21,7 +23,7 @@ class square():
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
-
+    """main"""
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
